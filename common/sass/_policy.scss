@@ -1,0 +1,29 @@
+#policy {
+  text-align: center;
+  h2{
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin:100px 0 100px 100px;
+    padding: 10px 0 10px 0;
+    color: white;
+    background-color:  #B90062;
+  }
+  h3{
+    background-color: #ff99ff;
+    display: block;
+    border: 1px solid red;
+  }
+}
+#policy-text {
+  display: block;
+  border: 1px solid red;
+  background-color: #FFCCCC;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  border-radius: 25px;
+  font-size: 20px;
+  span {
+    color: red;
+  }
+}

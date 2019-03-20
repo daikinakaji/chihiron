@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#title{
+  background: pink;
+  height: 50px;
+}
+header{
+  h1{
+    margin:0 auto;
+    height:324px;
+    a{
+      height:324px;
+      width:1000px;
+      display: block;
+      margin:0 auto;
+
+    }
+  }
+}
+nav {
+  display: block;
+}
+
+#global-nav{
+    width: 999px;
+    height:76px;
+    margin: 0 auto;
+    ul{
+      display: block;
+      height: 76px;
+      margin:0 auto;
+      padding-left: 0;
+      width: 1000px;
+    }
+    li{
+      float: left;
+     list-style: none outside none;
+     a{
+       display: block;
+       height:76px;
+       list-style: none outside none;
+       margin:0;
+       padding:0;
+       text-decoration: none;
+     }
+    }
+}
+.nav01 a {
+  background-image: url("../images/mm01.jpg") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav02 a {
+  background-image: url("../images/mm02.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav03 a {
+  background-image: url("../images/mm03.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav04 a {
+  background-image: url("../images/mm04.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav05 a {
+  background-image: url("../images/mm05.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+#contents {
+  margin:0 auto;
+  min-width: 980px;
+  min-height: 500px;
+  width: 1000px;
+}
+#column-content {
+  width: 730px;
+  margin:10px 0 10px 0;
+  padding:0;
+  float: right;
+}
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility:hidden;
+}
+.index-cap {
+  float: right;
+  width:310px;
+  font-size: 18px;
+  line-height: 170%;
+  border-bottom: double 3px #6EB3BD;
+}
+#g-ttl {
+  border-top: #4AA0AD 5px solid;
+  div {
+    float: right;
+    padding:7px 0 0 0;
+    font-size: 12px;
+  }
+}
+#policy {
+  width: 700px;
+  margin: 20px 0 15px 0;
+  ul {
+    list-style: none;
+    li {
+      border-bottom: dotted 1px #FF9900;
+      margin:15px 0 0 0;
+      padding:0 0 15px 0;
+    }
+  }
+}
+#facebook {
+  width: 700px;
+}
+policy-welfare {
+  padding:0;
+  overflow:hidden;
+  text-indent: -9999px;
+  height: 110px;
+  width: 110px;
+  float: left;
+}
+.policy-contents {
+  width: 560px;
+  float: right;
+}
+#sub {
+  width: 260px;
+  margin:10px 0 0 0;
+  padding:0;
+  float: left;
+}
+.sub-bn {
+  margin:10px 0 0 0;
+}
+#gfooter {
+  background-color: #FF00FF;
+  width: 100%;
+  clear: both;
+}
+#footer-left {
+  width: 760px;
+  float: left;
+  h4 {
+    width: 150px;
+    float: left;
+    padding: 20px 15px;
+    font-size: 15px;
+    color: white;
+  }
+  p {
+    width: 550px;
+    font-size: 12px;
+    color: white;
+    float: left;
+  }
+}
+#copyright {
+  margin: 0;
+  padding:15px 20px 0 0;
+  width: 200px;
+  float: right;
+  color: white;
+  font-size: 10px;
+}
+#policy {
+  text-align: center;
+  h2 {
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin:100px 0 100px 100px;
+    padding: 10px 0 10px 0;
+    color: white;
+    background-color:  #B90062;
+
+  }
+  h3 {
+    background-color: #ff99ff;
+    display: block;
+    border: 1px solid red;
+  }
+
+}
+#policy-text {
+  display: block;
+  border: 1px solid red;
+  background-color: #FFCCCC;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  border-radius: 25px;
+  font-size: 20px;
+  span {
+    color: red;
+  }
+}
+#profile {
+  h2 {
+    margin:50px 0 50px 150px;
+  }
+  p{
+    line-height: 200%;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+#profile-left {
+  float: right;
+  margin:25px 15px 20px 0;
+}

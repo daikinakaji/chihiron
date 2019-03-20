@@ -1,0 +1,153 @@
+*{
+  margin:0;
+  padding:0;
+}
+#title {
+  height: 50px;
+  background-color:pink;
+}
+header h1 {
+  margin:0 auto;
+  height:324px;
+}
+header h1 a {
+  height:324px;
+  width: 1000px;
+  display: block;
+  margin:0 auto;
+}
+#gloabal-nav {
+  width:999px;
+  height:76px;
+
+}
+nav {
+  display: block;
+}
+#global-nav ul {
+  display: block;
+  height: 76px;
+  margin:0 auto;
+  padding-left: 0;
+  width: 1000px;
+}
+#global-nav li {
+  float: left;
+ list-style: none outside none;
+}
+#global-nav li a {
+  display: block;
+  height:76px;
+  list-style: none outside none;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.nav01 a {
+  background-image: url("../images/mm01.jpg") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav02 a {
+  background-image: url("../images/mm02.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav03 a {
+  background-image: url("../images/mm03.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav04 a {
+  background-image: url("../images/mm04.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+.nav05 a {
+  background-image: url("../images/mm05.png") ;
+  height: 76px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 200px;
+}
+
+#contents {
+  margin:0 auto;
+  min-width: 980px;
+  min-height: 500px;
+  width: 1000px;
+}
+
+#column-content {
+  width: 730px;
+  margin:10px 0 10px 0;
+  padding:0;
+  float: right;
+}
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility:hidden;
+}
+.index-cap {
+  float: right;
+  width:310px;
+  font-size: 18px;
+  line-height: 170%;
+  border-bottom: double 3px #6EB3BD;
+}
+#g-ttl {
+  border-top: #4AA0AD 5px solid;
+}
+#g-ttl div {
+  float: right;
+  padding:7px 0 0 0;
+  font-size: 12px;
+}
+#policy {
+  width: 700px;
+  margin: 20px 0 15px 0;
+}
+#policy ul {
+  list-style: none;
+}
+#facebook {
+  width: 700px;
+}
+#policy li {
+  border-bottom: dotted 1px #FF9900;
+  margin:15px 0 0 0;
+  padding:0 0 15px 0;
+}
+.policy-welfare {
+  padding:0;
+  overflow:hidden;
+  text-indent: -9999px;
+  height: 110px;
+  width: 110px;
+  float: left;
+}
+.policy-contents {
+  width: 560px;
+  float: right;
+}
+#sub {
+  width: 260px;
+  margin:10px 0 0 0;
+  padding:0;
+  float: left;
+}
+.sub-bn {
+  margin:10px 0 0 0;
+}
